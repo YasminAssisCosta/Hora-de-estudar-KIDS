@@ -1,4 +1,4 @@
-                                                                               --- Hora de estudar KIDS--
+                                                         --- Hora de estudar KIDS--
                                                                                
 Hora de estudar KIDS, é uma plataforma de estudos para crianças do fundamental 1, que foi utilizado no trabalho de conclusão do curso TII, do IFSul campûs Gravataí.
 
