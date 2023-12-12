@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Plus+Jakarta+Sans:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    margin: 0 5px;
+}
+#logo{ 
+    width: 35px;
+    height: 35px;
+  }
+  nav {
+    background-color: #E49695;
+    color: #963232;
+  }
+
+.nav-link{
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    
+}
+a:hover{
+    text-decoration: none;
+    color: #E49695;
+}
+
+.btn{
+    margin-top: 2%;
+    background-color:#E49695;
+    width: 100%;
+    color: #ffffff;
+   
+}
+.btn:hover{
+    margin-top: 2%;
+    background-color:#e2817f;
+    width: 100%;
+    color: #ffffff;
+}
+svg, span{
+    color: #ead238;
+}
+
+
+
+.navbar-nav {
+  margin-left: auto;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+

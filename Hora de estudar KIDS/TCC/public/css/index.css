@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Plus+Jakarta+Sans:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/patua-one');
+@font-face {
+  font-family: Sticky Sans;
+  src: url(../font/Sticky\ Sans.otf);
+}
+
+button{
+  margin: 0 5px;
+}
+#logo{ 
+  width: 35px;
+  height: 35px;
+  margin-top: -2px;
+  margin-left: 5px;
+}
+nav {
+  background-color: #E49695;
+  color: #963232;
+}
+
+.nav-link{
+  color: #ffffff;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+}
+a:hover{
+  text-decoration: none;
+  color: #E49695;
+}
+
+.btn{
+  margin-top: 2%;
+  background-color:#E49695;
+  width: 100%;
+  color: #ffffff;
+}
+.btn:hover{
+  margin-top: 2%;
+  background-color:#e2817f;
+  width: 100%;
+  color: #ffffff;
+}
+svg, span{
+  color: #ead238;
+}
+
+
+
+.navbar-nav {
+margin-left: auto;
+color: #ffffff;
+}
+
+a {
+text-decoration: none;
+color: #ffffff;
+border: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#imagem {
+  margin-left: 33px;
+  height: 250px;
+  width: 100%;
+}
+
+div [class^="col-"] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dois {
+
+  margin-top: 4px;
+  margin-left: 4px;
+  height: 450px;
+  width: 98%;
+  margin-right: 4px;
+  border-radius: 5px;
+}
+#um {
+
+  margin-left: 10px;
+  height: 420px;
+  margin-top: 3%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 20px;
+  transition: 1s;
+  cursor: pointer;
+}
+svg, span{
+    color: #ead238;
+}
+.card-title i {
+  font-size: 20px;
+  transition: 1s;
+  cursor: pointer;
+  color: #ffa710;
+}
+
+#um card-title :hover {
+  transform: scale(1.25) rotate(100deg);
+  color: #18d4ca;
+
+}
+
+#um card:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-text {
+  height: 80px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#MaterialP {
+  color: #ffffff;
+  margin-left: 10px;
+  float: left;
+  width: 30%;
+  align-items: center;
+}
+
+#MaterialV {
+  color: #ffffff;
+  margin-left: 20px;
+  width: 30%;
+  float: left;
+  align-items: center;
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: '';
+  pointer-events: none;
+}
+
+.card::before {
+  transform-origin: left top;
+}
+
+.card::after {
+  transform-origin: right bottom;
+}
+
+.card:hover::before,
+.card:hover::after,
+.card:focus::before,
+.card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+
+h2, h1 {
+  color: #ffa710;
+
+  margin-left: 5px;
+}
+
+p {
+  color: #473619;
+
+  margin-left: 5px;
+}
+
+[vw] [vw-access-button] .access-button {
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+#botaoNivel {
+  display: inline-block; /* Torna os botões elementos em linha */
+            margin: 5px;
+  background-color: #e2817f;; 
+  --text-color: #fff;
+  position: relative;
+  width: 230px;
+  height: 100px;
+  border: none;
+  margin-left: 1%;
+
+  color: var(--text-color);
+  padding: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.2s;
+  border-radius: 7px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  box-shadow: #c27978dc 0px 7px 2px, #000 0px 8px 5px;
+}
+
+#botaoNivel :hover {
+  opacity: 5;
+}
+
+#botaoNivel :active {
+  top: 4px;
+  box-shadow: #c27978dc 0px 3px 2px,#000 0px 3px 5px;
+}
+
+#botaoNivel {
+  display: inline-block; 
+            margin: 5px;
+}
+
+
+
+
